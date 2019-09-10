@@ -10,8 +10,7 @@
             "name": "Debug executable 'hello'",
             "cargo": {
                 "args": [
-                    "build",
-                    "--target thumbv7em-none-eabihf"
+                    "build"
                 ],
                 "filter": {
                     "name": "hello",
