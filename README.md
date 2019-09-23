@@ -13,6 +13,12 @@
 
 5.[WritingOS](http://oldlinux.org/Linux.old/docs/WritingOS.pdf)
 
+6.[Operating_Systems_From_0_to_1](./doc/Operating_Systems_From_0_to_1.pdf)
+
+
+
+
+
 编译启动命令
 ```shell
 # 编译系统镜像
