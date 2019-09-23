@@ -10,7 +10,7 @@
             "name": "Debug executable 'hello'",
             "cargo": {
                 "args": [
-                    "build"
+                    "xbuild"
                 ],
                 "filter": {
                     "name": "hello",
@@ -26,7 +26,7 @@
             "name": "Debug unit tests in executable 'hello'",
             "cargo": {
                 "args": [
-                    "test",
+                    "xtest",
                     "--no-run",
                     "--bin=hello",
                     "--package=hello"
