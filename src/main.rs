@@ -5,8 +5,8 @@
 #![reexport_test_harness_main = "test_main"]
 
 use core::panic::PanicInfo;
-mod vga_buffer;
 mod serial;
+mod vga_buffer;
 
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
@@ -27,11 +27,11 @@ pub enum QemuExitCode {
     Failed = 0x11,
 }
 
-pub fn exit_qemu(exit_code:QemuExitCode){
+pub fn exit_qemu(exit_code: QemuExitCode) {
     use x86_64::instructions::port::Port;
 
-    unsafe{
-        let mut port=Port::new(0xf4);
+    unsafe {
+        let mut port = Port::new(0xf4);
         port.write(exit_code as u32);
     }
 }
@@ -47,7 +47,9 @@ fn test_runner(tests: &[&dyn Fn()]) {
 
 #[panic_handler]
 fn panic(info: &PanicInfo) -> ! {
-    serial_println!("{}", info);
+    serial_println!("[failed]\n");
+    serial_println!("Error: {}\n", info);
+    exit_qemu(QemuExitCode::Failed);
     loop {}
 }
 
