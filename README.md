@@ -1,5 +1,8 @@
-# 相关资料
+# 一天学会做操作系统
+> 这个标题绝对吹牛逼，连我自己都这么觉得...
 
+
+## 相关资料 
 1.[使用 Rust 编写操作系统](https://rust.cc/article?id=57e7ead4-7596-41cb-913e-7bd075caa7f4)
 
 2.[使用 Rust 编写操作系统](https://github.com/rustcc/writing-an-os-in-rust)
