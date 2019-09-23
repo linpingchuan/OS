@@ -11,6 +11,8 @@
 
 4.[XV6 中译版](https://github.com/deyuhua/xv6-book-chinese/blob/master/book/zh/chap01.md)
 
+5.[WritingOS](http://oldlinux.org/Linux.old/docs/WritingOS.pdf)
+
 编译启动命令
 ```shell
 # 编译系统镜像

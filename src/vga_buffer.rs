@@ -135,7 +135,7 @@ pub fn print_something() {
         .lock()
         .write_str("这是你想要的吗，说好不哭的")
         .unwrap();
-    write!(WRITER.lock(), "The number are {} and {}", 42, 1.0 / 3.0).unwrap();
+    write!(WRITER.lock(), "The number are {} and {}\n", 42, 1.0 / 3.0).unwrap();
 }
 #[doc(hidden)]
 pub fn _print(args: fmt::Arguments) {
