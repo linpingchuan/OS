@@ -56,6 +56,7 @@ fn panic(info: &PanicInfo) -> ! {
 #[test_case]
 fn trivial_assertion() {
     serial_println!("trivial assertion...");
+    loop{}
     assert_eq!(1, 2);
     serial_println!("[ok]");
 }

@@ -3,6 +3,7 @@
 
 
 ## 相关资料 
+
 1.[使用 Rust 编写操作系统](https://rust.cc/article?id=57e7ead4-7596-41cb-913e-7bd075caa7f4)
 
 2.[使用 Rust 编写操作系统](https://github.com/rustcc/writing-an-os-in-rust)
@@ -15,6 +16,11 @@
 
 6.[Operating_Systems_From_0_to_1](./doc/Operating_Systems_From_0_to_1.pdf)
 
+7.[blog_os](https://github.com/phil-opp/blog_os)
+
+8.[使用 Rust 编写操作系统 原版博客](http://os.phil-opp.com/)
+
+9.[消息队列的编写](https://github.com/johnmq/john)
 
 
 
