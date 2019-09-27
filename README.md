@@ -22,7 +22,9 @@
 
 9.[消息队列的编写](https://github.com/johnmq/john)
 
+10.[调试器中断点是如何工作的](https://eli.thegreenplace.net/2011/01/27/how-debuggers-work-part-2-breakpoints)
 
+11.[使用裸函数处理异常消息](https://os.phil-opp.com/first-edition/extra/naked-exceptions/)
 
 
 编译启动命令
@@ -34,5 +36,15 @@ cd ~/projects/hello/target/os/debug
 # 启动虚拟机
 qemu-system-x86_64 -drive format=raw,file=bootimage-hello.bin
 
+```
+
+## 测试
+### 测试 lib.rust
+```shell
+cargo xtest --lib
+```
+### 直接运行
+```shell
+cargo xrun
 ```
 

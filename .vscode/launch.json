@@ -11,11 +11,7 @@
             "cargo": {
                 "args": [
                     "xbuild"
-                ],
-                "filter": {
-                    "name": "hello",
-                    "kind": "bin"
-                }
+                ]
             },
             "args": [],
             "cwd": "${workspaceFolder}"
@@ -30,11 +26,7 @@
                     "--no-run",
                     "--bin=hello",
                     "--package=hello"
-                ],
-                "filter": {
-                    "name": "hello",
-                    "kind": "bin"
-                }
+                ]
             },
             "args": [],
             "cwd": "${workspaceFolder}"
