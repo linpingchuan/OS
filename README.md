@@ -28,7 +28,25 @@
 
 12.[Python 内核剖析](https://eli.thegreenplace.net/tag/python-internals)
 
-编译启动命令
+## 安装 Rust 命令
+```shell
+# 切换成实验版本
+rustup toolchain install nightly
+# 默认为实验版本
+rustup default nightly
+# 更新
+rustup update
+```
+
+## 安装 系统开发脚手架
+```shell 
+# 安装构建工具
+cargo install cargo-xbuild
+# 安装 bootimage
+cargo install bootimage --version "^0.7.7"
+```
+
+## 编译启动命令
 ```shell
 # 编译系统镜像
 cd ~/projects/hello && cargo bootimage
