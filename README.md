@@ -44,6 +44,8 @@ rustup update
 cargo install cargo-xbuild
 # 安装 bootimage
 cargo install bootimage --version "^0.7.7"
+# 安装 llvm-tools-preview
+rustup component add llvm-tools-preview
 ```
 
 ## 编译启动命令
