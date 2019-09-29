@@ -60,12 +60,12 @@ qemu-system-x86_64 -drive format=raw,file=bootimage-hello.bin
 ```
 
 ## 测试
-### 测试 lib.rust
+
 ```shell
+# 测试 lib.rust
 cargo xtest --lib
-```
-### 直接运行
-```shell
+
+# 直接运行
 cargo xrun
 ```
 
