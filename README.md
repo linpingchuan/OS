@@ -28,6 +28,8 @@
 
 12.[Python 内核剖析](https://eli.thegreenplace.net/tag/python-internals)
 
+13.[Python 开发解析](https://devguide.python.org/exploring/)
+
 ## 安装 Rust 命令
 ```shell
 # 切换成实验版本
