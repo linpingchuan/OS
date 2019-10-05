@@ -30,6 +30,7 @@
 
 13.[Python 开发解析](https://devguide.python.org/exploring/)
 
+14.[PEP 339: Design of the CPython compiler](https://www.python.org/dev/peps/pep-0339/) - probably the most important and comprehensive piece of official documentation for the Python compiler. Being very short, it painfully displays the scarcity of good documentation of the internals of Python.
 ## 安装 Rust 命令
 ```shell
 # 切换成实验版本
